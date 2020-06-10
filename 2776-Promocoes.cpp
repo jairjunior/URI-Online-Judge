@@ -13,8 +13,8 @@ int main(){
           ss >> nPromo;
           ss >> nBottles;
 
-          cout << "Qtd de promocoes: " << nPromo << endl;
-          cout << "Qtd de latas: " << nBottles << endl;
+          //cout << "Qtd de promocoes: " << nPromo << endl;
+          //cout << "Qtd de latas: " << nBottles << endl;
 
           int promocoes[nPromo][3];
           for(int i = 0; i < nPromo; i++){
@@ -41,10 +41,6 @@ int main(){
                     max = promocoes[i][2];
           }
           cout << max << endl;
-
-
-          //AGORA NECESSITA FAZER O CALCULO COM OS VALORES JÁ OBTIDOS
-
      }
      return 0;
 }
